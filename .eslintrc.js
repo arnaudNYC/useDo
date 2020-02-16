@@ -20,5 +20,10 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['stories/**/*.stories.jsx'] },
+    ],
+  },
 }
