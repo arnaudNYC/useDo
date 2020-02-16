@@ -1,0 +1,52 @@
+{
+  "name": "usedo",
+  "version": "1.0.0",
+  "description": "A React hook providing Undo and Redo functionalities.",
+  "scripts": {
+    "build": "microbundle",
+    "prebuild": "rimraf dist",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnaudNYC/useDo.git"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hook",
+    "hooks",
+    "undo",
+    "redo"
+  ],
+  "author": "arnaudNYC <adostes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arnaudNYC/useDo/issues"
+  },
+  "homepage": "https://github.com/arnaudNYC/useDo#readme",
+  "peerDependencies": {
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.8.3",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "microbundle": "^0.12.0-next.8",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2"
+  },
+  "source": "src/useDo.js",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.mjs",
+  "files": [
+    "dist/"
+  ]
+}
