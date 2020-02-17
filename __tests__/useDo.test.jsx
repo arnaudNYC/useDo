@@ -2,8 +2,6 @@ import React from 'react'
 
 import { fireEvent, render } from '@testing-library/react'
 
-import '@testing-library/jest-dom/extend-expect'
-
 import useDo from '../src/useDo'
 
 function ComponentUnderTest({ input }) {
