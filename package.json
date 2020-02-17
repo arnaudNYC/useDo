@@ -1,6 +1,6 @@
 {
   "name": "usedo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React hook providing Undo and Redo functionalities.",
   "scripts": {
     "start": "microbundle --watch",
