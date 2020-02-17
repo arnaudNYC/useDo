@@ -7,8 +7,10 @@
     "build": "microbundle",
     "prebuild": "rimraf dist",
     "lint": "eslint {src,__tests__,stories}/**/*",
+    "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prettier": "prettier {src,__tests__,stories}/**/* --write"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,7 @@
     "@storybook/addon-actions": "^5.3.13",
     "@storybook/addons": "^5.3.13",
     "@storybook/react": "^5.3.13",
+    "@testing-library/jest-dom": "^5.1.1",
     "@testing-library/react": "^9.4.0",
     "babel-loader": "^8.0.6",
     "eslint": "^6.8.0",
