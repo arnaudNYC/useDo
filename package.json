@@ -7,8 +7,10 @@
     "build": "microbundle",
     "prebuild": "rimraf dist",
     "lint": "eslint {src,__tests__,stories}/**/*",
+    "test": "jest",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "prettier": "prettier {src,__tests__,stories}/**/* --write"
   },
   "repository": {
     "type": "git",

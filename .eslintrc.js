@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
+    jest: true,
   },
   extends: [
     'plugin:react/recommended',
@@ -21,9 +22,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'import/no-extraneous-dependencies': [
-      'error',
-      { devDependencies: ['stories/**/*.stories.jsx'] },
-    ],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'react/prop-types': 0,
   },
 }
