@@ -10,7 +10,8 @@
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prettier": "prettier {src,__tests__,stories}/**/* --write"
+    "prettier": "prettier {src,__tests__,stories}/**/* --write",
+    "prepublishOnly": "yarn build"
   },
   "repository": {
     "type": "git",
