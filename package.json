@@ -54,11 +54,8 @@
     "prettier": "^1.19.1",
     "rimraf": "^3.0.2"
   },
-  "source": "src/useDo.js",
-  "main": "dist/bundle.js",
-  "module": "dist/bundle.mjs",
-  "files": [
-    "dist/"
-  ],
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
   "dependencies": {}
 }
